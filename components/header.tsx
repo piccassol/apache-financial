@@ -1,9 +1,9 @@
 "use client"
 
 import Link from "next/link"
-import { Phone, Mail, Facebook, Linkedin, Menu } from "lucide-react"
+import { Phone, Mail, Facebook, Linkedin, Menu, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
+import { Sheet, SheetContent, SheetTrigger, SheetClose } from "@/components/ui/sheet"
 import { useState } from "react"
 
 export default function Header() {
@@ -26,11 +26,11 @@ export default function Header() {
           <div className="flex items-center gap-4">
             <a href="tel:+17864711242" className="flex items-center gap-2 hover:opacity-80">
               <Phone className="h-4 w-4" />
-              <span>+1 786-471-1242</span>
+              <span className="hidden sm:inline">+1 786-471-1242</span>
             </a>
             <a href="mailto:info@apachefinancial.com" className="flex items-center gap-2 hover:opacity-80">
               <Mail className="h-4 w-4" />
-              <span>info@apachefinancial.com</span>
+              <span className="hidden sm:inline">info@apachefinancial.com</span>
             </a>
           </div>
           <div className="flex items-center gap-3">
@@ -65,7 +65,7 @@ export default function Header() {
               ))}
             </nav>
 
-            {/* Mobile menu button and dropdown */}
+            {/* Mobile menu button */}
             <Sheet open={open} onOpenChange={setOpen}>
               <SheetTrigger asChild className="md:hidden">
                 <Button variant="ghost" size="icon">
@@ -74,18 +74,53 @@ export default function Header() {
                 </Button>
               </SheetTrigger>
               <SheetContent side="right" className="w-[300px] sm:w-[400px]">
-                <nav className="flex flex-col gap-4 mt-8">
+                <div className="flex items-center justify-between mb-8">
+                  <div className="flex items-center gap-2">
+                    <div className="text-xl font-bold text-primary">APACHE</div>
+                    <div className="text-xs text-muted-foreground">
+                      <div className="font-semibold text-foreground">Financial</div>
+                    </div>
+                  </div>
+                  <SheetClose asChild>
+                    <Button variant="ghost" size="icon">
+                      <X className="h-5 w-5" />
+                    </Button>
+                  </SheetClose>
+                </div>
+                
+                <nav className="flex flex-col gap-1">
                   {navLinks.map((link) => (
                     <Link
                       key={link.href}
                       href={link.href}
                       onClick={() => setOpen(false)}
-                      className="text-lg font-medium text-foreground hover:text-primary py-2 border-b"
+                      className="text-lg font-medium text-foreground hover:text-primary hover:bg-gray-50 py-3 px-4 rounded-lg transition-colors"
                     >
                       {link.label}
                     </Link>
                   ))}
                 </nav>
+
+                <div className="mt-8 pt-8 border-t">
+                  <div className="space-y-4">
+                    <a href="tel:+17864711242" className="flex items-center gap-3 text-sm hover:text-primary">
+                      <Phone className="h-4 w-4" />
+                      <span>+1 786-471-1242</span>
+                    </a>
+                    <a href="mailto:info@apachefinancial.com" className="flex items-center gap-3 text-sm hover:text-primary">
+                      <Mail className="h-4 w-4" />
+                      <span>info@apachefinancial.com</span>
+                    </a>
+                    <div className="flex items-center gap-4 pt-4">
+                      <a href="#" className="hover:text-primary">
+                        <Facebook className="h-5 w-5" />
+                      </a>
+                      <a href="#" className="hover:text-primary">
+                        <Linkedin className="h-5 w-5" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
               </SheetContent>
             </Sheet>
           </div>
