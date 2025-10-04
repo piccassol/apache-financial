@@ -6,14 +6,14 @@ export function Welcome() {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         <div>
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Welcome to <span className="text-primary">Tax Preparation</span> Service
+            Welcome to <span className="text-primary"> Apache Financial Tax Preparation</span> Service
           </h2>
 
           <div className="space-y-4 text-muted-foreground leading-relaxed">
             <p>
-              <span className="font-semibold text-foreground">Tax Preparation Service</span> – As a
-              family-owned-and-operated financial provider, we are committed to providing the{" "}
-              <span className="font-semibold text-foreground">Tax Service Near</span> and business consulting to our
+              <span className="font-semibold text-foreground">Apache Financial</span> – As a
+              family-owned-and-operated financial provider, is committed to providing the{" "}
+              <span className="font-semibold text-foreground">Best Tax Service in Miami Florida</span> and business consulting to our
               clients by focusing on quality, value, and their specific needs. For almost a decade, our experienced and
               knowledgeable accountants have been helping individuals and businesses navigate the challenging times.{" "}
               <span className="font-semibold text-foreground">Client satisfaction is always our priority.</span>

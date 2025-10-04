@@ -6,39 +6,11 @@ import Header from "@/components/header"
 export default function AboutPage() {
   const teamMembers = [
     {
-      name: "Michael Rodriguez",
+      name: "Jean Boursiquot",
       title: "CEO & Founder",
       role: "Certified Public Accountant",
-      email: "michael@apachefinancial.com",
+      email: "jeanboursiquot@apachefinancial.com",
       image: "/professional-black-male-accountant-headshot.jpg",
-    },
-    {
-      name: "Sarah Chen",
-      title: "Senior Tax Advisor",
-      role: "Tax Specialist",
-      email: "sarah@apachefinancial.com",
-      image: "/professional-black-female-tax-advisor-headshot.jpg",
-    },
-    {
-      name: "David Thompson",
-      title: "Financial Consultant",
-      role: "Investment Advisor",
-      email: "david@apachefinancial.com",
-      image: "/professional-black-male-financial-consultant-heads.jpg",
-    },
-    {
-      name: "Jennifer Martinez",
-      title: "Client Relations Manager",
-      role: "Customer Success",
-      email: "jennifer@apachefinancial.com",
-      image: "/professional-black-female-client-relations-manage.jpg",
-    },
-    {
-      name: "Robert Kim",
-      title: "Business Tax Specialist",
-      role: "Corporate Tax Expert",
-      email: "robert@apachefinancial.com",
-      image: "/professional-black-male-business-tax-specialist-he.jpg",
     },
   ]
 
@@ -105,13 +77,13 @@ export default function AboutPage() {
           </h2>
           <div className="max-w-4xl mx-auto text-center">
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Financial Consultants and Investments Inc. was created to offer the highest quality and the most cost
+              Apache Financial LLC. was created to offer the highest quality and the most cost
               effective services that will allow our clients satisfaction. As the years became part of our company, our
               strategy always had our clients delivery as an utmost and our primary objective. The company has been
               providing tax preparation and accounting services for over a decade.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              Over the years, FCI has evolved into a successful practice by providing the best of support you may not
+              Over the years, Apache Financial has evolved into a successful practice by providing the best of support you may not
               find in other tax accounting firms. We promise to be proactive in finding the best solutions for each
               particular situation. Over the years, FCI has evolved into a successful practice by providing the best of
               support you may not find in other tax accounting firms. We promise to be proactive in finding the best
@@ -121,13 +93,13 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Team Section */}
-      <section className="py-16 bg-white">
+    {/* Team Section */}
+    <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12">
-            OUR <span className="text-primary">TEAM</span>
+            Meet The <span className="text-primary">CEO</span>
           </h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+          <div className="flex justify-center max-w-md mx-auto">
             {teamMembers.map((member, index) => (
               <div
                 key={index}

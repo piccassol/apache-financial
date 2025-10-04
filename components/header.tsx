@@ -14,7 +14,6 @@ export default function Header() {
     { href: "/about", label: "About Us" },
     { href: "/services", label: "Tax Services" },
     { href: "/packages", label: "Plans and Packages" },
-    { href: "/blog", label: "Blog" },
     { href: "/careers", label: "Careers" },
     { href: "/contact", label: "Contact Us" },
   ]

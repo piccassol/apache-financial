@@ -15,8 +15,8 @@ export default function Home() {
       <ContactBar />
       <Welcome />
       <Stats />
-      <Reviews />
       <Services />
+      <Reviews />
       <Footer />
     </main>
   )
