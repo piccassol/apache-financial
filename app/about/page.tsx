@@ -23,6 +23,21 @@ export default function AboutPage() {
     "/tax-preparation-workspace.jpg",
   ]
 
+  const testimonials = [
+    {
+      quote: "Jean is truly exceptional. He helped me fix my credit and guided me through buying my first home. His professionalism and patience made the process smooth and stress-free.",
+      author: "Maria T., Miami, FL",
+    },
+    {
+      quote: "I’ve worked with other tax preparers before, but Jean’s attention to detail and genuine care for his clients set him apart. Highly recommend!",
+      author: "David R., Fort Lauderdale, FL",
+    },
+    {
+      quote: "Jean helped me get back on track financially. His credit repair services were effective, and he explained everything clearly. I trust him completely.",
+      author: "Sandra M., West Palm Beach, FL",
+    },
+  ]
+
   return (
     <div className="min-h-screen">
       <Header />
@@ -93,8 +108,8 @@ export default function AboutPage() {
         </div>
       </section>
 
-    {/* Team Section */}
-    <section className="py-16 bg-white">
+      {/* Team Section with Bio */}
+      <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12">
             Meet The <span className="text-primary">CEO</span>
@@ -136,6 +151,45 @@ export default function AboutPage() {
               </div>
             ))}
           </div>
+          <div className="max-w-4xl mx-auto mt-12">
+            <h3 className="text-2xl font-bold mb-6 text-center">
+              About <span className="text-primary">Jean G. Boursiquot</span>
+            </h3>
+            <p className="text-muted-foreground leading-relaxed mb-4">
+              Welcome! I’m Jean G. Boursiquot, a multi-skilled professional proudly serving South Florida as a Licensed Real Estate Agent, Certified Tax Preparer, and Credit Repair Specialist. Originally from Haiti, I moved to the United States in 2000 and honorably served in the U.S. Navy, where I developed the discipline and dedication that continue to guide my work today.
+            </p>
+            <p className="text-muted-foreground leading-relaxed mb-4">
+              With over six years of experience helping individuals and families achieve financial empowerment, I’ve assisted hundreds of clients in restoring their credit, preparing accurate tax returns, and navigating real estate transactions with confidence. My mission is simple: to make life easier for others by offering honest, ethical, and personalized support.
+            </p>
+            <p className="text-muted-foreground leading-relaxed mb-4">
+              I’m passionate about learning, growing, and diversifying my expertise to better serve my community. Outside of work, I enjoy traveling, spending time at the beach, and staying active through sports. I believe every setback is a setup for a comeback—and I bring that mindset into every client interaction.
+            </p>
+            <p className="text-muted-foreground leading-relaxed font-bold">
+              Let’s work together to build a stronger financial future.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Testimonials Section */}
+      <section className="py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-12">
+            What <span className="text-primary">Clients Are Saying</span>
+          </h2>
+          <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+            {testimonials.map((testimonial, index) => (
+              <div
+                key={index}
+                className="bg-white border-2 border-gray-200 rounded-lg p-6 text-center hover:border-primary transition-colors"
+              >
+                <p className="text-muted-foreground leading-relaxed mb-4">
+                  &quot;{testimonial.quote}&quot;
+                </p>
+                <p className="font-bold">{testimonial.author}</p>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 
@@ -170,27 +224,22 @@ export default function AboutPage() {
               <h2 className="text-3xl font-bold mb-8">
                 Get In Touch <span className="text-primary">With Us</span>
               </h2>
-
               <div className="space-y-6">
                 <div>
                   <h3 className="font-bold text-xl mb-2">Call: +1-786-471-1242</h3>
                   <p className="text-gray-400">Feel free to contact any time!</p>
                 </div>
-
                 <div>
                   <h3 className="font-bold text-xl mb-2">Email</h3>
                   <p className="text-gray-400">info@apachefinancial.com</p>
                 </div>
-
                 <div>
                   <h3 className="font-bold text-xl mb-2">Address:</h3>
                   <p className="text-gray-400">15160 SW 136th Street Suite 14 Miami FL 33196</p>
                 </div>
               </div>
-
               <Button className="mt-8 bg-primary hover:bg-primary/90">Contact Us</Button>
             </div>
-
             <div className="bg-white text-foreground p-8 rounded-lg">
               <h3 className="text-2xl font-bold mb-6">
                 Quick <span className="text-primary">Contact</span>
