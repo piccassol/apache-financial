@@ -1,29 +1,28 @@
-import type React from "react"
 import type { Metadata } from "next"
-import { GeistSans } from "geist/font/sans"
-import { GeistMono } from "geist/font/mono"
-import { Analytics } from "@vercel/analytics/next"
+import { Inter } from "next/font/google"
 import "./globals.css"
-import { Suspense } from "react"
+
+const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "APACHE Financial - Tax Preparation & Accounting Services",
-  description:
-    "Professional tax preparation, accounting, and bookkeeping services in Miami, Florida. Expert financial solutions for individuals and businesses.",
-    generator: 'v0.app'
+  title: "Apache Financial LLC - Tax Services & Financial Solutions",
+  description: "Professional tax preparation, accounting, credit repair, and real estate services in South Florida. Over a decade of trusted financial expertise.",
+  icons: {
+    icon: "/favicon.ico",
+  },
 }
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode
-}>) {
+}) {
   return (
     <html lang="en">
-      <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable}`}>
-        <Suspense fallback={null}>{children}</Suspense>
-        <Analytics />
-      </body>
+      <head>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+      </head>
+      <body className={inter.className}>{children}</body>
     </html>
   )
 }

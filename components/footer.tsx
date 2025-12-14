@@ -9,7 +9,7 @@ export function Footer() {
             <div className="text-2xl font-bold text-primary mb-4">APACHE</div>
             <div className="text-sm mb-4">
               <div className="font-semibold">Financial</div>
-              <div className="text-xs opacity-80">& INVESTMENTS INC</div>
+              <div className="text-xs opacity-80">LLC 2026</div>
             </div>
             <p className="text-sm opacity-80 leading-relaxed">
               Your trusted partner for tax preparation, accounting, and financial services.
@@ -91,9 +91,9 @@ export function Footer() {
               <li className="flex items-start gap-2">
                 <MapPin className="h-4 w-4 mt-1 flex-shrink-0 text-primary" />
                 <span className="opacity-80">
-                  1350 NW 14th Street Suite 14
+                1377 NW 40th Ave #1075 
                   <br />
-                  Miami, FL 33125
+                  Lauderhill, FL 33313
                 </span>
               </li>
               <li className="flex items-center gap-2">
@@ -102,7 +102,7 @@ export function Footer() {
                   href="tel:+17864711242"
                   className="opacity-80 hover:opacity-100 hover:text-primary transition-colors"
                 >
-                  +1 786-471-1242
+                  +1 757-746-5010
                 </a>
               </li>
               <li className="flex items-center gap-2">
@@ -140,7 +140,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-background/20 pt-8 text-center text-sm opacity-80">
-          <p>&copy; {new Date().getFullYear()} APACHE Financial & Investments Inc. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} APACHE Financial LLC.2026 All rights reserved.</p>
         </div>
       </div>
     </footer>

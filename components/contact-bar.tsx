@@ -11,7 +11,7 @@ export function ContactBar() {
             </div>
             <div>
               <div className="font-semibold text-lg">Call Us Now</div>
-              <div className="text-sm">+1 786-471-1242</div>
+              <div className="text-sm">+1 757-746-5015</div>
             </div>
           </a>
 
@@ -21,7 +21,7 @@ export function ContactBar() {
             </div>
             <div>
               <div className="font-semibold text-lg">Office Location</div>
-              <div className="text-sm">1350 NW 14th Street Suite 14 Miami, FL 33125</div>
+              <div className="text-sm">1377 NW 40th Ave #1075 Lauderhill, FL 33313</div>
             </div>
           </div>
 

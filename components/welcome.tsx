@@ -43,14 +43,14 @@ export function Welcome() {
       <div className="mt-16 border-2 border-primary rounded-lg p-6 flex flex-col md:flex-row items-center justify-between gap-4">
         <div className="text-center md:text-left">
           <span className="text-2xl font-bold text-foreground">Best Tax Preparation Service </span>
-          <span className="text-2xl font-bold text-primary">Miami Florida</span>
+          <span className="text-2xl font-bold text-primary">Lauderhill Florida</span>
         </div>
         <Button
           size="lg"
           variant="outline"
           className="border-primary text-primary hover:bg-primary hover:text-primary-foreground bg-transparent"
         >
-          +1 786-471-1242
+          +1 757-746-5015
         </Button>
       </div>
     </section>

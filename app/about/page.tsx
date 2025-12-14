@@ -92,17 +92,17 @@ export default function AboutPage() {
           </h2>
           <div className="max-w-4xl mx-auto text-center">
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Apache Financial LLC. was created to offer the highest quality and the most cost
-              effective services that will allow our clients satisfaction. As the years became part of our company, our
-              strategy always had our clients delivery as an utmost and our primary objective. The company has been
-              providing tax preparation and accounting services for over a decade.
+              Apache Financial LLC was founded with a clear mission: to deliver exceptional financial services that 
+              prioritize client satisfaction above all else. For over a decade, we have been dedicated to providing 
+              comprehensive tax preparation, accounting, credit repair, and real estate services to individuals and 
+              families throughout South Florida.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              Over the years, Apache Financial has evolved into a successful practice by providing the best of support you may not
-              find in other tax accounting firms. We promise to be proactive in finding the best solutions for each
-              particular situation. Over the years, FCI has evolved into a successful practice by providing the best of
-              support you may not find in other tax accounting firms. We promise to be proactive in finding the best
-              solutions for each particular situation.
+              What sets us apart is our commitment to personalized service and proactive problem-solving. We believe 
+              every client deserves customized solutions tailored to their unique financial situation. Our approach 
+              combines professional expertise with genuine care, ensuring you receive the support and guidance needed 
+              to achieve your financial goals. As we continue to grow and evolve, our dedication to excellence and 
+              client success remains unwavering.
             </p>
           </div>
         </div>
