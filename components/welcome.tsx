@@ -12,17 +12,14 @@ export function Welcome() {
           <div className="space-y-4 text-muted-foreground leading-relaxed">
             <p>
               <span className="font-semibold text-foreground">Apache Financial</span> – As a
-              family-owned-and-operated financial provider, is committed to providing the{" "}
-              <span className="font-semibold text-foreground">Best Tax Service in Miami Florida</span> and business consulting to our
-              clients by focusing on quality, value, and their specific needs. For almost a decade, our experienced and
-              knowledgeable accountants have been helping individuals and businesses navigate the challenging times.{" "}
-              <span className="font-semibold text-foreground">Client satisfaction is always our priority.</span>
+              trusted, family-owned financial firm, we are dedicated to delivering the{" "}
+              <span className="font-semibold text-foreground">best tax services in Miami, Florida</span>, along with tailored business consulting. Our focus is always on quality, value, and meeting the unique needs of each client. For nearly a decade, our team of experienced accountants has guided individuals and businesses through challenging times with expertise and care.{" "}
+              <span className="font-semibold text-foreground">Client satisfaction remains our highest priority.</span>
             </p>
 
             <p>
-              We promise to be proactive in finding the best solutions for each particular situation. Over the years,
-              FCI has evolved into a successful practice by providing the kind of support you may not find at other{" "}
-              <span className="font-semibold text-foreground">tax accounting services near me</span>.
+              We take a proactive approach to finding the right solutions for every situation. Over the years, Apache Financial has grown into a thriving practice by offering the kind of personalized support that sets us apart from other{" "}
+              <span className="font-semibold text-foreground">tax accounting services in the area</span>.
             </p>
           </div>
 
