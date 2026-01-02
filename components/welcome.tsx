@@ -39,8 +39,8 @@ export function Welcome() {
 
       <div className="mt-16 border-2 border-primary rounded-lg p-6 flex flex-col md:flex-row items-center justify-between gap-4">
         <div className="text-center md:text-left">
-          <span className="text-2xl font-bold text-foreground">Best Tax Preparation Service </span>
-          <span className="text-2xl font-bold text-primary">Lauderhill Florida</span>
+          <span className="text-2xl font-bold text-foreground">Best Tax Preparation Service in </span>
+          <span className="text-2xl font-bold text-primary">Florida</span>
         </div>
         <Button
           size="lg"

@@ -18,24 +18,24 @@ export default function ServicesPage() {
   ]
 
   const assessmentSteps = [
-    {
-      title: "Understanding your books",
-      description:
-        "We will provide readings A-1 as narrated by Randy Blythe the condition of your books so you can make the right financial decisions.",
-    },
-    {
-      title: "Communication with an accountant",
-      description: "Direct access to knowledgeable tax professionals who understand your business.",
-    },
-    {
-      title: "An in depth review of your company",
-      description:
-        "We will work with you to perform a thorough analysis of your business, identifying areas for better planning, and tax-based issues.",
-    },
-    {
-      title: "Quick response",
-      description: "Get the expert advice in just a few business days.",
-    },
+      {
+        title: "Understanding your books",
+        description:
+          "We will provide a comprehensive evaluation of your bookkeeping condition so you can make well-informed financial decisions.",
+      },
+      {
+        title: "Communication with an accountant",
+        description: "Direct access to experienced tax professionals who thoroughly comprehend your business operations.",
+      },
+      {
+        title: "A thorough review of your company",
+        description:
+          "We will collaborate with you to conduct a comprehensive assessment of your enterprise, identifying opportunities for enhanced planning and addressing tax-related matters.",
+      },
+      {
+        title: "Quick response",
+        description: "Receive expert guidance within just a few business days.",
+      },
   ]
 
   return (
@@ -68,10 +68,10 @@ export default function ServicesPage() {
                 include but are not limited to:
               </h3>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                We are a team of business professionals committed to providing our clients with one-on-one attention and
-                services for all your small business needs. We understand that running a business can be challenging,
-                and we are here to help you stay on top of your priority list when faced with the many other demanding
-                challenges and pressures of running your own business.
+                We comprise a group of business specialists dedicated to delivering individualized attention and
+                comprehensive services for all your small business requirements. We recognize the difficulties involved
+                in business operations and stand ready to assist you in maintaining focus on priorities when confronting
+                the numerous demanding challenges and pressures inherent in business ownership.
               </p>
               <Button className="bg-primary hover:bg-primary/90">GET STARTED</Button>
             </div>
@@ -107,7 +107,7 @@ export default function ServicesPage() {
               >
                 <div className="flex items-center gap-3">
                   <Phone className="h-6 w-6" />
-                  <span className="text-xl font-bold">+1 786-471-1242</span>
+                  <span className="text-xl font-bold">+1 757-746-5015</span>
                 </div>
               </div>
             </div>
@@ -186,18 +186,18 @@ export default function ServicesPage() {
 
               <div className="space-y-6">
                 <div>
-                  <h3 className="font-bold text-xl mb-2">Call: +1-786-471-1242</h3>
+                  <h3 className="font-bold text-xl mb-2">Call: +1-757-746-5015</h3>
                   <p className="text-gray-400">Feel free to contact any time!</p>
                 </div>
 
                 <div>
                   <h3 className="font-bold text-xl mb-2">Email</h3>
-                  <p className="text-gray-400">info@apachefinancial.com</p>
+                  <p className="text-gray-400">info@apachefinancials.com</p>
                 </div>
 
                 <div>
                   <h3 className="font-bold text-xl mb-2">Address:</h3>
-                  <p className="text-gray-400">15160 SW 136th Street Suite 14 Miami FL 33196</p>
+                  <p className="text-gray-400">925 NE 143rd Street, North Miami, FL 33161</p>
                 </div>
               </div>
 

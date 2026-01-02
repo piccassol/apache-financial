@@ -59,15 +59,15 @@ export default function PackagesPage() {
             Start Your Tax <span className="text-primary">Business</span> Today!
           </h2>
           <div className="max-w-4xl mx-auto text-center">
-            <p className="text-muted-foreground leading-relaxed">
-              Our tax preparation business will be a great opportunity for someone that is looking to start their own
-              business. Tax Planning is the examination of a budgeting circumstance or plan from an assessment
-              viewpoint. The motivation behind assessment arranging is to guarantee charge productivity. Through tax
-              planning, all components of the monetary arrangement cooperate in the most tax-efficient way conceivable.
-              Tax Planning is a fundamental piece of a money related arrangement. Over the years, FCI has evolved into a
-              successful practice by providing the best of support you may not find in other tax accounting firms. We
-              promise to be proactive in finding the best solutions for each particular situation. The decrease of tax
-              liabilities and the expansion of the capacity to add to retirement plans are pivotal for progress.
+          <p className="text-muted-foreground leading-relaxed">
+              Launch your own tax preparation venture with Apache Financial's comprehensive support packages. Gain access to
+              professional tools, training, and resources to build a successful business. Tax planning involves evaluating your
+              financial situation from a strategic perspective. The purpose of tax planning is to ensure fiscal efficiency.
+              Through proper tax planning, all elements of your financial strategy work together in the most tax-advantaged manner
+              possible. Tax planning forms an essential component of any sound financial arrangement. Over the years, Apache
+              Financial has grown into a thriving practice by providing exceptional support you won't find elsewhere. We
+              remain committed to proactively identifying optimal solutions for every unique scenario. Minimizing tax obligations
+              and maximizing your ability to contribute to retirement plans are critical for achieving lasting success.
             </p>
           </div>
         </div>
@@ -133,7 +133,7 @@ export default function PackagesPage() {
               >
                 <div className="flex items-center gap-3">
                   <Phone className="h-6 w-6" />
-                  <span className="text-xl font-bold">+1 786-471-1242</span>
+                  <span className="text-xl font-bold">+1 757-746-5015</span>
                 </div>
               </div>
             </div>
@@ -185,50 +185,7 @@ export default function PackagesPage() {
         </div>
       </section>
 
-      {/* Tax Planning for Retirement */}
-      <section className="py-16 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <div className="grid md:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
-            <div>
-              <Image
-                src="/placeholder.svg?height=500&width=600"
-                alt="Tax Planning for Retirement"
-                width={600}
-                height={500}
-                className="rounded-lg shadow-lg"
-              />
-            </div>
-            <div>
-              <h2 className="text-3xl font-bold mb-6">
-                Tax Planning for <span className="text-primary">Retirement Plans</span>
-              </h2>
-              <p className="text-muted-foreground leading-relaxed mb-4">
-                Saving via a retirement plan is a well-known approach to diminish your present assessment rate. A
-                conventional IRA can limit the net salary by up to $6,500.
-              </p>
-              <p className="text-muted-foreground leading-relaxed mb-4">
-                Turning in 2019, if meeting all capabilities, a the under age 50 gets a decrease of $19,000 and a man
-                more than 50 gets a $25,000 decrease. In 2018, a 52-year-old man with a yearly salary of $50,000 and
-                made a $6,000 commitment to a conventional IRA has a balanced gross income of $44,000. Contrasted with a
-                man who did not add to an IRA, this individual's available gross income balance grew from $50,000 to
-                $25,500.
-              </p>
-              <p className="text-muted-foreground leading-relaxed">
-                There are a few other retirement designs that an individual can use to help lower assessment
-                commitments. 401(k) plans are mainstream with bigger organizations that have numerous representatives.
-                Members in the arrangement can concede pay from their check legitimately into the organization's 401(k)
-                plan. The best distinction is that the commitment furthest reaches dollar sum is a lot higher than that
-                of an IRA.
-              </p>
-              <p className="text-muted-foreground leading-relaxed mt-4">
-                Utilizing a similar model as over, the 52-year-old could contribute up to $25,000. Sparing at 70% of a
-                similar age or more established, the commitment furthest reaches increments from $25,000 to $25,500 if
-                age 50 or more established. The $25,000 commitment balance grew from $50,000 to $25,500.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+
 
       {/* Contact CTA Section */}
       <section className="py-16 bg-gray-900 text-white">
@@ -242,18 +199,18 @@ export default function PackagesPage() {
 
               <div className="space-y-6">
                 <div>
-                  <h3 className="font-bold text-xl mb-2">Call: +1-786-471-1242</h3>
+                  <h3 className="font-bold text-xl mb-2">Call: +1-757-746-5015</h3>
                   <p className="text-gray-400">Feel free to contact any time!</p>
                 </div>
 
                 <div>
                   <h3 className="font-bold text-xl mb-2">Email</h3>
-                  <p className="text-gray-400">info@apachefinancial.com</p>
+                  <p className="text-gray-400">info@apachefinancials.com</p>
                 </div>
 
                 <div>
                   <h3 className="font-bold text-xl mb-2">Address:</h3>
-                  <p className="text-gray-400">15160 SW 136th Street Suite 14 Miami FL 33196</p>
+                  <p className="text-gray-400">925 NE 143rd Street, North Miami, FL 33161</p>
                 </div>
               </div>
 

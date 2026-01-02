@@ -91,27 +91,27 @@ export function Footer() {
               <li className="flex items-start gap-2">
                 <MapPin className="h-4 w-4 mt-1 flex-shrink-0 text-primary" />
                 <span className="opacity-80">
-                1377 NW 40th Ave #1075 
+                925 NE 143rd Street
                   <br />
-                  Lauderhill, FL 33313
+                  North Miami, FL 33161
                 </span>
               </li>
               <li className="flex items-center gap-2">
                 <Phone className="h-4 w-4 flex-shrink-0 text-primary" />
                 <a
-                  href="tel:+17864711242"
+                  href="tel:+17577465015"
                   className="opacity-80 hover:opacity-100 hover:text-primary transition-colors"
                 >
-                  +1 757-746-5010
+                  +1 757-746-5015
                 </a>
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="h-4 w-4 flex-shrink-0 text-primary" />
                 <a
-                  href="mailto:info@apachefinancial.com"
+                  href="mailto:info@apachefinancials.com"
                   className="opacity-80 hover:opacity-100 hover:text-primary transition-colors"
                 >
-                  info@apachefinancial.com
+                  info@apachefinancials.com
                 </a>
               </li>
             </ul>

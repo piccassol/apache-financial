@@ -39,7 +39,7 @@ export default function ContactPage() {
                     </div>
                   </div>
                   <div>
-                    <h3 className="font-bold text-2xl mb-2">Call: +1-786-471-1242</h3>
+                    <h3 className="font-bold text-2xl mb-2">Call: +1-757-746-5015</h3>
                     <p className="text-muted-foreground">Feel free to contact any time!</p>
                   </div>
                 </div>
@@ -52,7 +52,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-bold text-2xl mb-2">Email</h3>
-                    <p className="text-muted-foreground">info@apachefinancial.com</p>
+                    <p className="text-muted-foreground">info@apachefinancials.com</p>
                   </div>
                 </div>
 
@@ -64,7 +64,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-bold text-2xl mb-2">Address:</h3>
-                    <p className="text-muted-foreground">15160 SW 136th Street Suite 14 Miami FL 33196</p>
+                    <p className="text-muted-foreground">925 NE 143rd Street, North Miami, FL 33161</p>
                   </div>
                 </div>
               </div>
@@ -104,25 +104,6 @@ export default function ContactPage() {
                   Submit
                 </Button>
               </form>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Map Section (Optional) */}
-      <section className="py-16 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <div className="max-w-6xl mx-auto">
-            <div className="bg-gray-200 rounded-lg overflow-hidden" style={{ height: "450px" }}>
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3595.5!2d-80.4!3d25.6!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDM2JzAwLjAiTiA4MMKwMjQnMDAuMCJX!5e0!3m2!1sen!2sus!4v1234567890"
-                width="100%"
-                height="100%"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-              />
             </div>
           </div>
         </div>

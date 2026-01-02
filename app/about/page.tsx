@@ -9,7 +9,7 @@ export default function AboutPage() {
       name: "Jean Boursiquot",
       title: "CEO & Founder",
       role: "Certified Public Accountant",
-      email: "jeanboursiquot@apachefinancial.com",
+      email: "jeanboursiquot@apachefinancials.com",
       image: "/professional-black-male-accountant-headshot.jpg",
     },
   ]
@@ -65,10 +65,11 @@ export default function AboutPage() {
                 About <span className="text-primary">Us</span>
               </h2>
               <p className="text-muted-foreground leading-relaxed">
-                As a family-owned and operated financial institution, we are committed to providing personalized service
-                that puts your needs first. We understand that every client is unique, and their specific needs, for
-                almost a decade, our experienced and knowledgeable professionals have been helping companies and
-                individuals with their most challenging issues. Client satisfaction is always our priority.
+                As a family-owned and operated financial firm, we are dedicated to delivering personalized service
+                that prioritizes your unique requirements. We recognize that each client brings distinct financial circumstances
+                to the table, and our team adapts accordingly. For nearly ten years, our skilled and knowledgeable professionals
+                have been supporting businesses and individuals through their most complex financial challenges. Ensuring
+                our clients' complete satisfaction remains at the core of everything we do.
               </p>
             </div>
             <div>
@@ -92,17 +93,17 @@ export default function AboutPage() {
           </h2>
           <div className="max-w-4xl mx-auto text-center">
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Apache Financial LLC was founded with a clear mission: to deliver exceptional financial services that 
-              prioritize client satisfaction above all else. For over a decade, we have been dedicated to providing 
-              comprehensive tax preparation, accounting, credit repair, and real estate services to individuals and 
-              families throughout South Florida.
+              Apache Financial LLC was established with one clear objective: to provide outstanding financial services
+              that place client satisfaction at the forefront. For more than ten years, we have been committed to offering
+              thorough tax preparation, accounting, credit restoration, and real estate assistance to individuals and
+              families across the South Florida region.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              What sets us apart is our commitment to personalized service and proactive problem-solving. We believe 
-              every client deserves customized solutions tailored to their unique financial situation. Our approach 
-              combines professional expertise with genuine care, ensuring you receive the support and guidance needed 
-              to achieve your financial goals. As we continue to grow and evolve, our dedication to excellence and 
-              client success remains unwavering.
+              Our difference lies in our dedication to individualized service and forward-thinking problem resolution.
+              We firmly believe that every client merits tailored solutions designed specifically for their financial
+              circumstances. Our methodology merges professional knowledge with authentic concern, guaranteeing you
+              receive the backing and direction necessary to reach your financial objectives. As we expand and develop,
+              our commitment to quality and client prosperity remains steadfast.
             </p>
           </div>
         </div>
@@ -156,7 +157,13 @@ export default function AboutPage() {
               About <span className="text-primary">Jean G. Boursiquot</span>
             </h3>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Welcome! I’m Jean G. Boursiquot, a multi-skilled professional proudly serving South Florida as a Licensed Real Estate Agent, Certified Tax Preparer, and Credit Repair Specialist. Originally from Haiti, I moved to the United States in 2000 and honorably served in the U.S. Navy, where I developed the discipline and dedication that continue to guide my work today.
+              Greetings! I'm Jean G. Boursiquot, a versatile professional proudly serving the South Florida community as a Licensed Real Estate Agent, Certified Tax Preparer, and Credit Restoration Expert. Having relocated from Haiti to the United States in 2000, I served with distinction in the U.S. Navy, cultivating the discipline and commitment that continue to steer my professional practice.
+            </p>
+            <p className="text-muted-foreground leading-relaxed mb-4">
+              Drawing from over six years of experience in helping individuals and families attain financial independence, I have supported hundreds of clients in rebuilding their credit, preparing precise tax filings, and maneuvering through real estate transactions with assurance. My purpose is straightforward: to simplify life for others by delivering truthful, principled, and individualized assistance.
+            </p>
+            <p className="text-muted-foreground leading-relaxed mb-4">
+              I am enthusiastic about continuous learning, development, and broadening my capabilities to serve my community more effectively. Beyond work, I appreciate exploring new destinations, relaxing at the beach, and maintaining an active lifestyle through various sports. I maintain that every obstacle presents an opportunity for growth—and I carry this perspective into each client engagement.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-4">
               With over six years of experience helping individuals and families achieve financial empowerment, I’ve assisted hundreds of clients in restoring their credit, preparing accurate tax returns, and navigating real estate transactions with confidence. My mission is simple: to make life easier for others by offering honest, ethical, and personalized support.
@@ -226,16 +233,16 @@ export default function AboutPage() {
               </h2>
               <div className="space-y-6">
                 <div>
-                  <h3 className="font-bold text-xl mb-2">Call: +1-786-471-1242</h3>
+                  <h3 className="font-bold text-xl mb-2">Call: +1-757-746-5015</h3>
                   <p className="text-gray-400">Feel free to contact any time!</p>
                 </div>
                 <div>
                   <h3 className="font-bold text-xl mb-2">Email</h3>
-                  <p className="text-gray-400">info@apachefinancial.com</p>
+                  <p className="text-gray-400">info@apachefinancials.com</p>
                 </div>
                 <div>
                   <h3 className="font-bold text-xl mb-2">Address:</h3>
-                  <p className="text-gray-400">15160 SW 136th Street Suite 14 Miami FL 33196</p>
+                  <p className="text-gray-400">925 NE 143rd Street, North Miami, FL 33161</p>
                 </div>
               </div>
               <Button className="mt-8 bg-primary hover:bg-primary/90">Contact Us</Button>
