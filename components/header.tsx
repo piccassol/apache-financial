@@ -27,11 +27,11 @@ export default function Header() {
           <div className="flex items-center gap-4">
             <a href="tel:+17864711242" className="flex items-center gap-2 hover:text-[#C9A961] transition-colors">
               <Phone className="h-4 w-4" />
-              <span className="hidden sm:inline">+1 786-471-1242</span>
+              <span className="hidden sm:inline">+1 757-746-5015</span>
             </a>
             <a href="mailto:info@apachefinancial.com" className="flex items-center gap-2 hover:text-[#C9A961] transition-colors">
               <Mail className="h-4 w-4" />
-              <span className="hidden sm:inline">info@apachefinancial.com</span>
+              <span className="hidden sm:inline">info@apachefinancials.com</span>
             </a>
           </div>
           <div className="flex items-center gap-3">
@@ -111,11 +111,11 @@ export default function Header() {
                   <div className="space-y-4">
                     <a href="tel:+17864711242" className="flex items-center gap-3 text-sm text-gray-300 hover:text-[#C9A961] transition-colors">
                       <Phone className="h-4 w-4" />
-                      <span>+1 786-471-1242</span>
+                      <span>+1 757-746-5015</span>
                     </a>
                     <a href="mailto:info@apachefinancial.com" className="flex items-center gap-3 text-sm text-gray-300 hover:text-[#C9A961] transition-colors">
                       <Mail className="h-4 w-4" />
-                      <span>info@apachefinancial.com</span>
+                      <span>info@apachefinancials.com</span>
                     </a>
                     <div className="flex items-center gap-4 pt-4">
                       <a href="#" className="text-gray-300 hover:text-[#C9A961] transition-colors">
